@@ -18,8 +18,7 @@ This project is a web-based implementation of **FacialCLIP**, designed for both 
 ## ✨ Features
 - **Video Emotion Recognition:** Upload a video via a web interface and get an annotated video with frame-by-frame expression detection (optimized for CPU).
 - **Image Emotion Recognition:** Process single images to detect faces and classify their emotions.
-- **Translated Codebase:** Full English support for code, comments, and UI.
-
+- **Online Demo Provided:** Available on Hugging Face Spaces.
 ---
 
 ## 🛠️ Installation
