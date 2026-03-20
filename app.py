@@ -195,7 +195,7 @@ def process_video(video_path):
     return out_path
 
 # Gradio Interface
-with gr.Blocks(title="DFER-CLIP Video Emotion Recognition") as iface:
+with gr.Blocks(title="FacialCLIP Video Emotion Recognition") as iface:
     gr.Markdown("# Video Real-time Facial Expression Recognition")
     gr.Markdown("Upload a video and the system will process it frame by frame to detect the facial expression of the largest face in the frame.")
     
