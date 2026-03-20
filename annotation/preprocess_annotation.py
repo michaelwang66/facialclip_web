@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from glob import glob
 
-DFEW_SOURCE = "/home/zonepg/datasets/DFEW"
+DFEW_SOURCE = ""
 DFEW_CLIP_SOURCE = os.path.join(DFEW_SOURCE, "Clip", "clip_224x224")
 
 def main():
