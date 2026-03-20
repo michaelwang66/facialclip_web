@@ -19,13 +19,13 @@ all_txt_file = glob(os.path.join('DFEW_*.txt'))
 for txt_file in all_txt_file:
     update(txt_file, old_path, new_path)
 
-old_path = "/data/EECS-IoannisLab/datasets/FERV39K/"
+old_path = ""
 new_path = "/home3/tqcj46/FERV39K/"
 all_txt_file = glob(os.path.join('FERV39K_*.txt'))
 for txt_file in all_txt_file:
     update(txt_file, old_path, new_path)
     
-old_path = "/data/EECS-IoannisLab/datasets/MAFW/"
+old_path = ""
 new_path = "/home3/tqcj46/MAFW/"
 all_txt_file = glob(os.path.join('MAFW_*.txt'))
 for txt_file in all_txt_file:
