@@ -25,7 +25,7 @@ if hasattr(torch.serialization, 'add_safe_globals'):
 
 #  ---- Parse command line parameters ----
 def get_args():
-    parser = argparse.ArgumentParser(description="DFER-CLIP single picture expression recognition")
+    parser = argparse.ArgumentParser(description="Facial-CLIP single picture expression recognition")
     parser.add_argument('--image', type=str, default='ne.png',
                         help='Enter the image path (default: ku.png)')
     parser.add_argument('--checkpoint', type=str,
@@ -54,7 +54,7 @@ def load_model(args, device):
     CLIP_model = CLIP_model.float().eval()
     print(">>> [OK] CLIP loaded successfully")
 
-    print(">>> [2/2] Loading DFER-CLIP weights...")
+    print(">>> [2/2] Loading Facial-CLIP weights...")
     model = GenerateModel(input_text=class_descriptor_7, clip_model=CLIP_model, args=args)
 
     if not os.path.exists(args.checkpoint):
