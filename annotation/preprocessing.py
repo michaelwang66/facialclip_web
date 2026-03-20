@@ -13,7 +13,7 @@ def update(file, old_str, new_str):
     with open(file, "w", encoding="utf-8") as f:
         f.write(file_data)
 
-old_path = "/data/EECS-IoannisLab/datasets/DFEW/DFEW_Frame_Face/"
+old_path = ""
 new_path = "/home3/tqcj46/DFEW_Frame_Face/"
 all_txt_file = glob(os.path.join('DFEW_*.txt'))
 for txt_file in all_txt_file:
